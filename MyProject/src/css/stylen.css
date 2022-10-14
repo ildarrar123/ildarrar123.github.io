@@ -1,13 +1,14 @@
-body{
+body {
     font-family: Arial, sans-serif;
 }
-nav{
+
+nav {
     width: 100%;
     height: 60px;
     background: #344051;
 }
 
-.logo{
+.logo {
     float: left;
     color: #fff;
     font-size: 30px;
@@ -15,46 +16,46 @@ nav{
     padding-left: 390px;
 }
 
-.menu{
+.menu {
     float: left;
     padding-left: 430px;
-    
 }
-
-.menu li{
+.menu li {
     float: left;
     font-size: 16px;
-    color: white;
     line-height: 60px;
     margin-right: 40px;
     text-transform: uppercase;
 }
-
-.main{
-    width: 100%;
-    height: calc(100% - 60px);
-    background:url(../img/paren.png) 90% 100%/auto 85% no-repeat , url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
+.menu a {
+    color: #fff;
 }
 
-.title_container{
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/paren.png) 90% 100%/auto 85% no-repeat, url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
+}
+.main input{
+    margin: 0px 7px 0px 7px;
+}
+
+.title_container {
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
 }
-
-.title_container h1{
+.title_container h1 {
     font-size: 60px;
     font-weight: bold;
 }
-
-.title_container h4{
+.title_container h4 {
     margin-top: 40px;
     font-size: 22px;
     color: #79818d;
 }
-
-.title_container input{
+.title_container input {
     height: 40px;
     text-align: center;
     border: 2px solid;
@@ -67,24 +68,24 @@ nav{
     font-size: 13px;
 }
 
-.about_me_container h3{
+.about_me_container h3 {
     text-align: center;
     border-bottom: 4px solid #d17700;
-    width: 96px;
-    font-size: 22px;
+    width: 67px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
     margin: 10px auto;
     padding-bottom: 5px;
 }
+.about_me_container {
 
-.about_me_container{
-    
     width: 740px;
     margin: 0 auto;
 }
-
-.about_me_container input{
-    background: url(../img/icon.png) 100% 100%/auto 85% no-repeat;
-    height: 40px;
+.about_me_container input {
+    width: 153px;
+    height: 30px;
     text-align: center;
     border: 2px solid;
     border-radius: 5px;
@@ -92,46 +93,351 @@ nav{
     background: none;
     margin-top: 55px;
     margin-left: 41%;
-    padding-left: 33px;
-    padding-right: 14px;
+    padding-left: 20px;
+    padding-right: 11px;
     font-size: 13px;
+    background: url(../img/icon.png) 7% 44%/auto 50% no-repeat;
 }
-
-.about_me_container img{
+.about_me_container img {
     display: block;
     margin: 0 auto;
 }
-
-.about_me_container p{
+.about_me_container p {
     margin-top: 30px;
-    
+    color: #3f495a;
 }
-
-.about_me_container .secondText{
+.about_me_container .secondText {
     margin-top: 15px;
 }
 
-.skills_container h2{
+.skills {
+    background: url(../img/fon3.jpg) center/cover no-repeat;
+}
+.skills_container h2 {
+    color: #263244;
     text-align: center;
+    text-transform: uppercase;
     border-bottom: 4px solid #d17700;
     width: 96px;
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: bold;
     margin: 10px auto;
-    padding-bottom: 5px;
+    padding-bottom: 34px;
     padding-top: 105px;
 }
-.skills_container{
-    background: url(../img/fon3.jpg) center/cover no-repeat;
+.skills_container {
     margin-top: 97px;
-    width: 100%;
+    width: 992px;
     height: 520px;
     margin: 0px auto;
 }
-.skills_item{
+.skills_item {
     float: left;
     width: 230px;
     text-align: center;
+    padding-top: 36px;
+    font-size: 15px;
+    margin: 0px 5px 0px 5px;
 }
-.clear{
-    clear:left;
+.skills_container img {
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
+.skills_container h3{
+    padding-bottom: 17px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #cf7600;
+}
+
+.clear {
+    clear: left;
+}
+
+.portfolio_container h3{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid #d17700;
+    width: 109px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px auto;
+    margin-bottom: 42px;
+    padding-bottom: 20px;
+    color: #384354;
+}
+.portfolio{
+    margin-top: 104px;
+}
+.portfolio_container>p{
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 15px;
+    color: #3f495a;
+}
+
+.description_left{
+    float: left;
+    width: 270px;
+    margin-left: 388px;
+}
+.description_left h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #384354;
+    padding-bottom: 15px;
+}
+.description_left p{
+    color: #384354;
+    padding-bottom: 16px;
+}
+.description_left a{
+    background: #63b5ae;
+    color: white;
+    padding: 15px 42px;
+}
+.description_left_p{
+    margin-bottom: 25px;
+}
+.description_right{
+    float: left;
+    width: 750px;
+    height: 250px;
+}
+.description_right h4{
+    font-size: 19px;
+    font-weight: bold;
+    color: #384354;
+    padding-bottom: 15px;
+}
+.description_right p{
+    color: #384354;
+    border: 0px solid;
+    padding-bottom: 15px;
+    line-height: 17px;
+}
+
+.calculator{
+    margin-top: 130px;
+}
+.calculator_container h2{
+    text-align: center;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 53px;
+}
+.calculator_container{
+    text-align: center;
+}
+.calculator_container h3{
+    
+    color: #1c2534;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.calculator_container select{
+    width: 891px;
+    padding: 25px;
+    margin-bottom: 44px;
+    font-weight: bold;
+    background: #eeeeee;
+    color: #737373;
+}
+.calc_h3{
+    width: 891px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.days{
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    margin-left: 480px;
+    margin-bottom: 23px;
+    border-top: 2px solid;
+    padding-top: 23px;
+}
+.sroky{
+    padding-right: 828px;
+    margin-top: 40px;
+    
+}
+.stoimost{
+    padding-right: 788px;
+}
+.price{
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    margin-left: 480px;
+}
+
+.statistic{
+    height: 500px;
+    background: url(../img/fon4.png) center/cover no-repeat;
+}
+.statistic_container h2{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid #d17700;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 33px;
+    padding-top: 85px; 
+    margin: 10px auto;
+    margin-bottom: 100px;
+}
+.statistic_container{
+    width: 940px;
+    margin: 0 auto;
+}
+.statistic_item{
+    color: #323e4f;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.statistic_item h3{
+    padding-top: 33px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.reviews{
+    height: 475px;
+}
+.reviews_container h2{
+    text-align: center;
+    color: #243042;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 53px;
+    margin-top: 106px;
+}
+.review{
+    color: #243042;
+    line-height: 10px;
+    text-align: center;
+    color: #243042;
+}
+.review h4{
+    margin-top: 33px;
+    text-align: center;
+    color: #243042;
+}
+.review w{
+    color: #243042;
+    font-weight: bold;
+}
+.review img{
+    margin-bottom: 35px;
+}
+.reviews_container p{
+    
+}
+
+.contacts{
+    height: 807px;
+    background: url(../img/fon_niz.png) center/cover no-repeat;
+}
+.contacts_container h3{
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.contacts_container{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.contacts_container h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 105px;
+    margin-bottom: 69px;
+}
+.contacts_data_item{
+    margin-top: 50px;
+    margin-bottom: 59px;
+    width: 33%;
+    float: left;
+}
+.contacts_container .input_down{
+    height: 34px;
+    width: 352px;
+    padding-left: 13px;
+    background: #d2d6dc;
+}
+form textarea{
+    background: #d2d6dc;
+    height: 94px;
+    width: 707px;
+    margin-top: 14px;
+    padding-top: 9px;
+    padding-left: 12px;
+}
+.contacts_container .input_submit{
+    display: block;
+    width: 121px;
+    height: 42px;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.map{
+    display: block;
+    height: 350px;
+    width: 100%;
+}
+.footer{
+    height: 96px;
+    width: 100%;
+    margin: 5px;
+    background: #354051;
+}
+.footer_container{
+    color: #fff;
+}
+.footer_container p{
+    text-align: center;
+    padding-top: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
